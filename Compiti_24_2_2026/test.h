@@ -8,3 +8,4 @@ int recursive_natural_sum(int n);
 void print_recursive_vector (vector<int>& v, int n);
 vector <int> reverse_recursive_vector (vector<int>& v, unsigned n = 0);
 vector <int> copy_recursive_vector (vector<int>& v, int n);
+int sum_recursive_vector (vector<int>  v, int n );

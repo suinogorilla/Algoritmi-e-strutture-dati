@@ -27,6 +27,7 @@ int main ()
     for(int i = 0; i < 10; i++) {
        cout <<  reversevettore[i] << " ";
     }
+    cout << endl << " La somma dei valori nel vettore e: "<< sum_recursive_vector(vettore, vettore.size()) << endl;
     return 0;
 }
 

@@ -30,3 +30,11 @@ vector <int> copy_recursive_vector (vector<int>& v, int n) // copia vettore rico
     aux.push_back(v[n - 1]);
     return aux;
 }
+
+int sum_recursive_vector (vector<int>  v, int n ) // funzione ricorsiva che somma il contenuto del vettore
+{
+    int sum = 0;
+    if (n == 0) return sum;
+    sum = v[n-1] + sum_recursive_vector(v, n - 1);
+    return sum;
+}
