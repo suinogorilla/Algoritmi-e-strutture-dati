@@ -22,8 +22,8 @@ int main ()
     cout << endl;
     print_recursive_vector(vettore, vettore.size());
 
-    vector <int>  reversevettore = reverse_recursive_vector(vettore, vettore.size()):
-    cout << endl << "Il vettore ribaltato e: "
+    vector <int>  reversevettore = reverse_recursive_vector(vettore);
+    cout << endl << "Il vettore ribaltato e: "<< endl;
     for(int i = 0; i < 10; i++) {
        cout <<  reversevettore[i] << " ";
     }
