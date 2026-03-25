@@ -1,3 +1,4 @@
+// g++ -Wall -std=c++11  *.cpp  -o test
 #include "test.h"
 
 int main ()
@@ -27,7 +28,7 @@ int main ()
     for(int i = 0; i < 10; i++) {
        cout <<  reversevettore[i] << " ";
     }
-    cout << endl << " La somma dei valori nel vettore e: "<< sum_recursive_vector(vettore, vettore.size()) << endl;
+    cout << endl << "La somma dei valori nel vettore e: "<< sum_recursive_vector(vettore, vettore.size()) << endl;
     return 0;
 }
 
